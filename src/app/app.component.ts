@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import 'phaser';
+import { config } from '../game/config';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'pong';
+  phaser = Phaser;
+  config = config;
 }
