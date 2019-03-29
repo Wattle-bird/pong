@@ -52,7 +52,7 @@
                   "maximumError": "5mb"
                 }
               ],
-              "baseHref": "/pong"
+              "deployUrl": "/pong/"
             }
           }
         },
